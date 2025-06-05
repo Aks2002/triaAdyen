@@ -61,7 +61,7 @@ paymentMethodsResponse: {
                 },
                 onError: (error, component) => {
                     console.error('Global error:', error.name, error.message, error.stack, component);
-                },
+                }
              
         };
         const paymentMethodsConfiguration = {
